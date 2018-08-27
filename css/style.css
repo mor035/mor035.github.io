@@ -16,7 +16,7 @@ h1 {
   margin: 0;
 }
 h2 {
-  color: #FC0542;
+  color: #C6FF00;
   font-weight: 300;
   margin: 0 0 .5em 0;
 }
@@ -31,7 +31,7 @@ h2 {
   margin: 0 0 2em 0;
 }
 .intro a {
-  color: #FC0542;
+  color: #C6FF00;
   text-decoration: none;
 }
 .intro .title {
@@ -57,7 +57,7 @@ h2 {
   margin: 0 0 2em 0;
 }
 .changelog a {
-  color: #FC0542;
+  color: #C6FF00;
   text-decoration: none;
 }
 .changelog .title {
@@ -121,7 +121,7 @@ h2 {
   margin: 0 0 2em 0;
 }
 .updates a {
-  color: #FC0542;
+  color: #C6FF00;
   text-decoration: none;
 }
 .updates .title {
@@ -154,7 +154,7 @@ h2 {
   margin: 0 0 2em 0;
 }
 .bio a {
-  color: #FC0542;
+  color: #C6FF00;
   text-decoration: none;
 }
 .bio .title {
@@ -200,7 +200,7 @@ h2 {
   margin: 0 0 2em 0;
 }
 .end a {
-  color: #FC0542;
+  color: #C6FF00;
   text-decoration: none;
 }
 .end .title {
