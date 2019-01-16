@@ -1,73 +1,249 @@
+<!-- startpage, feel free to fork and edit! -->
+
 <!DOCTYPE html>
 <html>
-  
 <head>
-  <title>Marc Halang</title>
-  
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans+Mono" />
-  <link href="css/style.css" rel="stylesheet">
-  <script type='text/javascript' src='js/fetch.js'></script>
-  <script type='text/javascript' src='js/contents.js'></script>
+  <title> Welcome back 
+  </title>
+	
+<!-- Latest compiled and minified bootstrap CSS -->
+	
+<link crossorigin="anonymous" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity=
+"sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel="stylesheet" type=
+"text/css">
 
-  <!-- Meta Data -->
-  <meta name="description" content="Marc Halang, aspiring Developer." />
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Marc Halang">
-  <meta name="twitter:description" content="Student, student/developer.">
-  <meta name="twitter:creator" content="@mor035">
+<!-- stylesheet -->
+<style>
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* requires Gotham Medium */
+body {
+	background-color: #F1ECF0;
+	font-family: Helvetica;
+
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+}
+
+/* top margin */
+.box {
+  margin-top: 6rem;
+}
+
+a, a:active,a:focus, a:hover {
+	outline: none !important;
+    text-decoration:none; 
+	color: inherit;
+	text-decoration: none !important;
+}
+
+/* top title (welcome) */
+.maintitle {
+	color: #00ffff;
+	font-weight: bold;
+	font-size: calc(13.9vw + 3vh);
+	padding-left: 0px !important;
+	position: relative;
+	line-height: 0.8;
+	margin-left: -1rem;
+}
+
+/* 2 letter title */
+.title {
+	font-weight: 800;
+	font-size: 50px;
+	float: right;
+	line-height: 1.2
+	padding-bottom: 5px;
+}
+
+/* square name */
+.subtitle {
+	font-size: 14px;	
+}
+
+.square { 
+	height: 100px;
+	width: 100px !important;
+	background-color: #2f323f;
+	margin: 4px;
+	color: #F1ECF0;
+ 	padding: 5px;
+   transition: background-color 1.2s ease;
+ }
+
+ .square:hover {
+ 	background-color: #F1ECF0;
+	color: #2f323f;
+    transition: background-color 0.2s ease;
+ }
+
+.clear {
+	clear: both;
+}
+</style>
+ 
 </head>
-  
 <body>
-  <div class="container">
-    <h1>Marc Halang</h1>
-    <h2>student and self-taught programmer</h2>
-    <div class="links">
-      <a href="http://github.com/mor035">github</a>
-      <a href="http://twitter.com/mor035">twitter</a>
-      <a href="https://www.xing.com/profile/Marc_Halang">xing</a>
-      <a href="mailto:marc.halang@gmail.com">email</a>
-      <a href="https://soundcloud.com/mor035">soundcloud</a>
-      <a href="https://www.artstation.com/mor035">artstation</a>  
-    </div>
-    
-  <div align="justify" class="intro">
-    Hi, my Name is Marc. I'm currently a masters student at the Eberhard-Karls Universität in Tübingen BW, Germany. 
-    In my free time I like to work on side projects which include programming, web-design and studying art and music.
-  </div>
-    
-  <div class="changelog">
-    <div class="title flash">Changelog</div>
-      No events yet. More at <a href="https://www.xing.com/profile/Marc_Halang">Xing</a>.
-    <div class="exp">
-      <div class="loading">Under construction...</div>
-      <ul id="highlights"></ul>
-    </div>
-  </div>
 
-  <div class="updates">
-    <div class="title flash">Updates/Releases</div>
-    News and releasenotes of my projects. More at <a href="http://github.com/mor035">GitHub</a>.
-    
-    <div class="exp">
-      <div class="loading">Under construction...</div>
-      <ul id="press">
-      </ul>
-    </div>
-  </div>
+<!-- squares container start -->
+<div class="row-fluid">
 
-  <div class="bio">
-    <div class="title flash">Biographie</div>
-    My Curriculum Vitae.
-    <div class="exp">
-      <a href="pdf/halang_resume.pdf">Résumé</a> 
-    </div>
-  </div>
+<!-- YouTube -->
+<a href="https://www.youtube.com"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Yo</div><div class="clear"></div><div class="subtitle">YouTube</div></span></a>
 
-  <div class="end">
-    Follow me on <a href="http://twitter.com/mor035">Twitter</a>.
-  </div>
-      </div>
+<!-- Google -->
+<a href="https://google.co.uk"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Go</div><div class="clear"></div><div class="subtitle">Google</div></span></a>
+
+<!-- Gmail -->
+<a href="https://mail.google.com/mail/u/0/#inbox"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Gm</div><div class="clear"></div><div class="subtitle">Gmail</div></span></a>
+
+<!-- Kalender -->
+<a href="https://calendar.google.com/calendar"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Ka</div><div class="clear"></div><div class="subtitle">Kalender</div></span></a>
+
+<!-- Drive -->
+<a href="https://drive.google.com/drive/u/0/my-drive"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Dr</div><div class="clear"></div><div class="subtitle">Drive</div></span></a>
+
+<!-- Facebook -->
+<a href="https://www.facebook.com/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Fa</div><div class="clear"></div><div class="subtitle">Facebook</div></span></a>
+
+<!-- Wikipedia -->
+<a href="https://en.wikipedia.org/wiki/Main_Page"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Wi</div><div class="clear"></div><div class="subtitle">Wikipedia</div></span></a>
+
+<!-- /g/ -->
+<a href="http://boards.4chan.org/g/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">4g</div><div class="clear"></div><div class="subtitle">4ch/g</div></span></a>
+
+<!-- /mu/ -->
+<a href="http://boards.4chan.org/mu/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">4m</div><div class="clear"></div><div class="subtitle">4ch/mu</div></span></a>
+
+<!-- /wg/ -->
+<a href="http://boards.4chan.org/wg/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">4w</div><div class="clear"></div><div class="subtitle">4ch/wg</div></span></a>
+
+<!-- /fa/ -->
+<a href="http://boards.4chan.org/fa/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">4f</div><div class="clear"></div><div class="subtitle">4ch/fa</div></span></a>
+
+<!-- /lit/ -->
+<a href="http://boards.4chan.org/lit/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">4l</div><div class="clear"></div><div class="subtitle">4ch/lit</div></span></a>
+
+<!-- Uni Homepage -->
+<a href="https://www.uni-tuebingen.de/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Un</div><div class="clear"></div><div class="subtitle">Universit&#228t</div></span></a>
+
+<!-- Campus -->
+<a href="https://campus.verwaltung.uni-tuebingen.de/lsfserver/rds;jsessionid=528C2A9CDDB2294E4BB5E0A564D6A6C4.qisworker0831?state=user&type=0&category=menu.browse&breadCrumbSource=portal&startpage=portal.vm&chco=y"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Ca</div><div class="clear"></div><div class="subtitle">Campus</div></span></a>
+
+<!-- Ilias -->
+<a href="https://ovidius.uni-tuebingen.de/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Il</div><div class="clear"></div><div class="subtitle">Ilias</div></span></a>
+
+<!-- ZDV Webmail -->
+<a href="https://webmail.uni-tuebingen.de/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">We</div><div class="clear"></div><div class="subtitle">Webmail ZDV</div></span></a>
+
+<!-- Fachsprachenzentrum -->
+<a href="http://www.uni-tuebingen.de/einrichtungen/verwaltung-dezernate/iii-internationale-angelegenheiten/fachsprachenzentrum/fachsprachenzentrum.html"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Fz</div><div class="clear"></div><div class="subtitle">FSZ T&#252</div></span></a>
+
+<!-- ITPC -->
+<a href="https://www.iptc.uni-tuebingen.de/praktikum/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">It</div><div class="clear"></div><div class="subtitle">ITPC T&#252</div></span></a>
+
+<!-- Scifinder -->
+<a href="https://origin-scifinder.cas.org/scifinder/login"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Sc</div><div class="clear"></div><div class="subtitle">Scifinder</div></span></a>
+
+<!-- Pubmed -->
+<a href="https://www.ncbi.nlm.nih.gov/pubmed"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Pu</div><div class="clear"></div><div class="subtitle">Pubmed</div></span></a>
+
+<!-- SDBS -->
+<a href="http://sdbs.db.aist.go.jp/sdbs/cgi-bin/direct_frame_top.cgi"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Sd</div><div class="clear"></div><div class="subtitle">SDBS Data</div></span></a>
+
+<!-- Organic Syntheses -->
+<a href="http://www.orgsyn.org/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Or</div><div class="clear"></div><div class="subtitle">Org Syn</div></span></a>
+
+<!-- Netflix -->
+<a href="https://www.netflix.com/de/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Ne</div><div class="clear"></div><div class="subtitle">Netflix</div></span></a>
+
+<!-- Soundcloud -->
+<a href="https://www.soundcloud.com/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">So</div><div class="clear"></div><div class="subtitle">Soundcloud</div></span></a>
+
+<!-- Amazon -->
+<a href="http://www.amazon.de/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Am</div><div class="clear"></div><div class="subtitle">Amazon</div></span></a>
+
+<!-- Ebay -->
+<a href="http://www.ebay.de/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Eb</div><div class="clear"></div><div class="subtitle">Ebay</div></span></a>
+
+<!-- Geizhals -->
+<a href="https://www.geizhals.de/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Ge</div><div class="clear"></div><div class="subtitle">Geizhals</div></span></a>
+
+<!-- Idealo -->
+<a href="https://www.idealo.de/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Id</div><div class="clear"></div><div class="subtitle">Idealo</div></span></a>
+
+<!-- Reddit -->
+<a href="http://www.reddit.com/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Re</div><div class="clear"></div><div class="subtitle">Reddit</div></span></a>
+
+<!-- Twitter -->
+<a href="https://twitter.com/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Tw</div><div class="clear"></div><div class="subtitle">Twitter</div></span></a>
+
+<!-- Twitch -->
+<a href="https://www.twitch.tv/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Tv</div><div class="clear"></div><div class="subtitle">TV Twitch</div></span></a>
+
+<!-- PC Welt -->
+<a href="https://www.pcwelt.de/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Pc</div><div class="clear"></div><div class="subtitle">PC Welt</div></span></a>
+
+<!-- Computerbase -->
+<a href="https://www.computerbase.de/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Co</div><div class="clear"></div><div class="subtitle">Computerbase</div></span></a>
+
+<!-- Protonmail -->
+<a href="https://mail.protonmail.com/login"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Pr</div><div class="clear"></div><div class="subtitle">Protonmail</div></span></a>
+
+<!-- Discogs -->
+<a href="https://www.discogs.com/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Di</div><div class="clear"></div><div class="subtitle">Discogs</div></span></a>
+
+<!-- Stack Overflow -->
+<a href="https://stackoverflow.com/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">St</div><div class="clear"></div><div class="subtitle">StackOverflow</div></span></a>
+
+<!-- Gist Github -->
+<a href="https://gist.github.com/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Gg</div><div class="clear"></div><div class="subtitle">Gist GitHub</div></span></a>
+
+<!-- Github -->
+<a href="https://github.com/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Gi</div><div class="clear"></div><div class="subtitle">GitHub</div></span></a>
+
+<!-- NMR -->
+<a href="http://www.nmrs.io/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Nm</div><div class="clear"></div><div class="subtitle">NMR</div></span></a>
+
+<!-- MDN -->
+<a href="https://developer.mozilla.org/en-US/docs/Learn"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Md</div><div class="clear"></div><div class="subtitle">Mozilla Dev</div></span></a>
+
+<!-- MDD -->
+<a href="https://developer.mozilla.org/en-US/docs/Web"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Mw</div><div class="clear"></div><div class="subtitle">Html Elem.</div></span></a>
+
+<!-- Odin -->
+<a href="https://www.theodinproject.com/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Od</div><div class="clear"></div><div class="subtitle">Odin Dev</div></span></a>
+
+<!-- COD -->
+<a href="https://www.codecademy.com"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Ac</div><div class="clear"></div><div class="subtitle">Codeacademy</div></span></a>
+
+<!-- Cu. -->
+<a href="https://www.quora.com/Can-I-go-from-noob-to-employable-software-developer-in-8-months-How"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Cu</div><div class="clear"></div><div class="subtitle">Curriculum</div></span></a>
+
+<!-- myS -->
+<a href="https://www.tutorialspoint.com/mysql/index.htm"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">My</div><div class="clear"></div><div class="subtitle">mySQL</div></span></a>
+
+<!-- FCC -->
+<a href="https://www.freecodecamp.org"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Fc</div><div class="clear"></div><div class="subtitle">FreeCodeC</div></span></a>
+
+<!-- Erowid -->
+<a href="https://www.erowid.org"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Er</div><div class="clear"></div><div class="subtitle">Erowid</div></span></a>
+
+<!-- Scimad -->
+<a href="https://www.sciencemadness.org"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">Sm</div><div class="clear"></div><div class="subtitle">Science Madness</div></span></a>
+
+
+<!-- square container end -->
+</div>
+<!-- scripts -->
+    <!-- Latest compiled and minified JavaScript Bootstrap3 -->
+	<script src=
+	"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type=
+	"text/javascript">
+	</script> 
 </body>
-  
 </html>
+
